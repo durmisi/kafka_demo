@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  producer:
+    image: poc-producer:latest
+    container_name: poc_producer_container
+    ports:
+      - "8080:8080"
+  consumer:
+    image: poc-consumer:latest
+    container_name: poc_consumer_container
+    ports:
+      - "8081:8080"

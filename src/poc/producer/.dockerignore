@@ -1,0 +1,20 @@
+# Ignore version control system files
+.git
+.gitignore
+
+# Ignore Go binary files
+*.exe
+*.test
+*.prof
+
+# Ignore editor and IDE files
+.vscode
+.idea
+
+# Ignore Go build artifacts
+/bin
+/pkg
+/vendor
+
+# Ignore any other files or directories specific to your project
+# Add additional entries as needed based on your project structure
